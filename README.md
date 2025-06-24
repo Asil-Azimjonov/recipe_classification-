@@ -14,23 +14,18 @@ Initially, the project was part of an assignment for the *Business Analytics and
 
 ---
 
-## 💡 Why It Matters
-
-As AI systems generate more personalized content—like recipes, recommendations, and ads—it’s critical to understand **why** users respond positively or negatively. This project shows how we can:
-- Predict user preferences with ensemble models,
-- Engineer meaningful features from multi-table datasets,
-- Use SHAP to interpret the key drivers of user satisfaction.
-
----
-
 ## 🧠 Machine Learning Pipeline
 
-### 1. **Exploratory Data Analysis**:
+> Point 1 is in eda.ipynb file
+> 
+> Points 2-4 are in Feature_engineering_model_training.ipynb file
+
+### 1. **Exploratory Data Analysis**: 
 - Data structure exploration across 4 relational tables:
   - `recipes`, `reviews`, `diet`, and `requests`
 - Defined preprocessing goals and feature hypotheses
 
-### 2. **Feature Engineering & Data Preparation**:
+### 2. **Feature Engineering & Data Preparation**: 
 - Created and transformed new features
 - Merged all relevant tables into a clean dataset
 - Encoded categorical variables and handled missing values
